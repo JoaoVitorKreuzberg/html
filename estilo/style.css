@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+
+:root{
+    --fonte1: Verdana, Geneva, sans-serif;
+    --fonte2: 'Syne Mono', monospace;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    min-height: 100VH;
+    background-color: darkgreen;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+header > h1{
+    padding: 50px;
+    font-variant: small-caps;
+}
+header > p{
+    padding-bottom: 50px;
+}
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover{
+    text-decoration: underline
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: var(--fonte2);
+}
+
+section.normal{
+    background-color: white;
+    color: black;
+}
+section.imagem{
+    background-color: darkorange;
+    color: white;
+}
+section.imagem > p {
+    background-color: #0000008e;
+    width: 400px;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 8px;
+}
