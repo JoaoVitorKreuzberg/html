@@ -46,18 +46,35 @@ section{
     padding-left: 30px;
     font-family: var(--fonte2);
 }
+section > p {
+    padding-bottom: 2em;
+}
 
 section.normal{
     background-color: white;
     color: black;
 }
 section.imagem{
-    background-color: darkorange;
+    background-color: #20160934;
     color: white;
+    box-shadow: inset 6px 6px 4px #0000003f;
+    background-attachment: fixed;
 }
 section.imagem > p {
+    padding: 5px;
+    display: inline-block;
     background-color: #0000008e;
-    width: 400px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.219);
+}
+section#img01{
+    background-image: url("../LUFFY.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+section#img02{
+    background-image: url("../LUFFY02.jfif");
+    background-position: center center;
+    background-size: cover;
 }
 footer{
     background-color: black;
